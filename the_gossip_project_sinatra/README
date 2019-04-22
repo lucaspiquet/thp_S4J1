@@ -10,6 +10,7 @@ mais pas encore de les éditer :/
 
 Pour afficher le projet :
 - git clone https://github.com/lucaspiquet/thp_S4J1
+- cd the_gossip_project_sinatra (je viens de me rendre compte que j'avais mis en ligne le dossier parent...)
 - bundle install
 - shotgun -p 4567
 Le site est accessible à l'adresse http://localhost:4567/
