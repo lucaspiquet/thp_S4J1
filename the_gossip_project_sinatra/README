@@ -1,0 +1,17 @@
+The Gossip Project, mis en oeuvre avec le framework Sinatra.
+
+Projet de Lucas Piquet.
+
+Avancement : jusqu'au 2.6.5. ("Pour finir : le lien") inclus.
+
+Il est donc possible de générer de nouveaux gossips, de tous les afficher via un index et un à un grâce aux routes dynamiques, mais pas encore de les éditer :/ 
+
+
+Pour afficher le projet :
+- git clone https://github.com/lucaspiquet/thp_S4J1
+- bundle install
+- shotgun -p 4567
+Le site est accessible à l'adresse http://localhost:4567/
+
+Le base de données en CSV est dans le répertoire db: gossip.csv
+

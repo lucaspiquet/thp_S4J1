@@ -3,14 +3,19 @@
     <title>The Gossip Project</title>
   </head>
   <body>
-    <h1>Mon super site de gossips ! La liste des potins arrive bientôt...</h1>
+    <h1>Mon super site de gossips !</h1>
+
     <a href="/gossips/new/">Clique ici pour créer ton nouveau potin !</a>
-    
-    <% gossips.each do |gossip| %>
-        <p>
-          <%= gossip.author %><br/>
-          <%= gossip.content %>
-        </p>s
-      <% end %>
+   
+      <br>
+      <br>
+      <br>
+
+    <% gossips.each_with_index do |gossip,index| %>
+      <p>
+        <a href="/gossips/<%= (index+1) %>"><%= gossip.author %></a><br/>
+        <%= gossip.content %>
+      </p>
+    <% end %>
   </body>
 </html>
